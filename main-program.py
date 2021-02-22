@@ -5,17 +5,17 @@ import requests
 
 # Dictionary url for each emitent
 # You can add the url by change the emitent code, ex: ADHI.JK to BBCA.JK or something
-allurl = ["https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/ADHI.JK/key-statistics?p=ADHI.JK", 
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/PTRO.JK/key-statistics?p=PTRO.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/TBLA.JK/key-statistics?p=TBLA.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/IGAR.JK/key-statistics?p=IGAR.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/SMSM.JK/key-statistics?p=SMSM.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/MLPT.JK/key-statistics?p=MLPT.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/LINK.JK/key-statistics?p=LINK.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/TINS.JK/key-statistics?p=TINS.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/POWR.JK/key-statistics?p=POWR.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/BJTM.JK/key-statistics?p=BJTM.JK",
-         "https://api.scrapingdog.com/scrape?api_key=60304c8757fd5d19cf3ddf3b&url=https://finance.yahoo.com/quote/BBCA.JK/key-statistics?p=BBCA.JK"]
+allurl = ["https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/ADHI.JK/key-statistics?p=ADHI.JK", 
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/PTRO.JK/key-statistics?p=PTRO.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/TBLA.JK/key-statistics?p=TBLA.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/IGAR.JK/key-statistics?p=IGAR.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/SMSM.JK/key-statistics?p=SMSM.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/MLPT.JK/key-statistics?p=MLPT.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/LINK.JK/key-statistics?p=LINK.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/TINS.JK/key-statistics?p=TINS.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/POWR.JK/key-statistics?p=POWR.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/BJTM.JK/key-statistics?p=BJTM.JK",
+         "https://api.scrapingdog.com/scrape?api_key=ADD YOUR SCRAPPINGDOG API HERE&url=https://finance.yahoo.com/quote/BBCA.JK/key-statistics?p=BBCA.JK"]
 
 print('IHSG Undervalue Emitent (0<PER<15 and 0<PBV<1) List:')
 
