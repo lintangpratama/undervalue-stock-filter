@@ -7,9 +7,8 @@ from emitenList import emiten_code
 # Scrappingdog is a web scrapper that let you used the scrapping API for free (max: 1000 request) 
 api_key = 'YOUR SCRAPPINGDOG.COM API CODE'
 
-# Initialize the emitent code from IDX Stock
-
-
+# Title
+print('')
 print('IHSG Undervalue Emitent (0<PER<15 and 0<PBV<1) List:')
 
 for i in range(len(emiten_code)):
