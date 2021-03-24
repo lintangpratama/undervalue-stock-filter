@@ -60,3 +60,4 @@ for i in range(len(emiten_code)):
 print('')
 print('Thanks for using this program :)')
 print('Data was got from Yahoo! Finance')
+print('cr: Lintang Pratama')
