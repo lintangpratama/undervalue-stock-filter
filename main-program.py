@@ -5,7 +5,7 @@ from emitenList import emiten_code
 
 # Initialize Scrapingdog API key
 # Scrappingdog is a web scrapper that let you used the scrapping API for free (max: 1000 request) 
-api_key = '60304c8757fd5d19cf3ddf3b'
+api_key = 'YOUR SCRAPPINGDOG.COM API CODE'
 
 # Initialize the emitent code from IDX Stock
 
