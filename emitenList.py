@@ -1,4 +1,5 @@
-emiten_code = ['AALI.JK', 
+emitensCode = [
+       'AALI.JK', 
        'ABBA.JK',
        'ABDA.JK',
        'ABMM.JK',
@@ -615,4 +616,5 @@ emiten_code = ['AALI.JK',
        'YULE.JK',
        'ZBRA.JK',
        'ZINC.JK',
-       'ZONE.JK']
+       'ZONE.JK'
+]
