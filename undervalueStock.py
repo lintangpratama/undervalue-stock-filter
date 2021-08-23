@@ -33,7 +33,9 @@ class UndervalueStock():
                     # Add the self.emiten name from h1 tag
                     try:
                         emiten['Name'] = name[0].text
-                        
+                        if emiten['Name'] == 'Yahoo':
+                            continue
+
                         # Find the PBV, PER, and dividend yield data from tr table and td class
                         # PER and PBV table
                         valuation_table = data[0].find_all("tr")
@@ -59,21 +61,16 @@ class UndervalueStock():
                     break
                 
                 self.ihsg.append(emiten)
-                print(self.ihsg)
-                print('counter:', counter)
-                print('output:', self.output)
 
                 # Output
                 if 0 <= self.ihsg[counter]['Trailing P/E '] <= per and 0 <= self.ihsg[counter]['Price/Book (mrq)'] <= pbv and dividend_yield >= dividen:
-                    print('if statement')
                     print('-', self.ihsg[counter]['Name'])
                     print('  PER:', self.ihsg[counter]['Trailing P/E '])
                     print('  PBV:', self.ihsg[counter]['Price/Book (mrq)'])
                     print('  Dividend Yield:', self.ihsg[counter]['Forward Annual Dividend Yield 4'])
                     self.output += 1
                 
-                counter += 1
-                    
+                counter += 1 
 
         else:
             raise TypeError("Only integers are allowed")
