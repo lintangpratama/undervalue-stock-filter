@@ -40,7 +40,7 @@ class UndervalueStock():
                         # PER and PBV table
                         valuation_table = data[0].find_all("tr")
                         # Dividend yield table
-                        dividend_table = data[3].find_all('tr')
+                        dividend_table = data[3].find_all("tr")
 
                         # Find the td table from td tags
                         table_td_PER = valuation_table[2].find_all("td")
